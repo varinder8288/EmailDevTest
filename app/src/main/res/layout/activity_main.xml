@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="EMAIL APPLICATION WeUsAll DEV TEST"
-        android:textSize="20dp"
+        android:textSize="30dp"
         tools:layout_editor_absoluteX="175dp"
         tools:layout_editor_absoluteY="112dp" />
 
