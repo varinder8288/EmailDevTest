@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ComposeEmail">
+
+    <EditText
+        android:id="@+id/id_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="left"
+        android:hint="To"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/id_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Subject"
+        android:gravity="left"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <EditText
+        android:id="@+id/id_message"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Message"
+        android:gravity="left"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <Button
+        android:id="@+id/id_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="SEND"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+</LinearLayout >
